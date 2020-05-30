@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		299FE0112482DD7500830D70 /* DiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299FE0102482DD7500830D70 /* DiaryCell.swift */; };
 		D4107B172482BB9C006142EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4107B162482BB9C006142EA /* AppDelegate.swift */; };
 		D4107B192482BB9C006142EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4107B182482BB9C006142EA /* SceneDelegate.swift */; };
 		D4107B1B2482BB9C006142EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4107B1A2482BB9C006142EA /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		299FE0102482DD7500830D70 /* DiaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryCell.swift; sourceTree = "<group>"; };
 		D4107B132482BB9C006142EA /* Hokaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hokaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4107B162482BB9C006142EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4107B182482BB9C006142EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		299FE00F2482DD5300830D70 /* SE sources */ = {
+			isa = PBXGroup;
+			children = (
+				D49BD5A92482D5670032CDDB /* seongeun.storyboard */,
+				299FE0102482DD7500830D70 /* DiaryCell.swift */,
+			);
+			path = "SE sources";
+			sourceTree = "<group>";
+		};
 		D4107B0A2482BB9C006142EA = {
 			isa = PBXGroup;
 			children = (
@@ -64,11 +75,11 @@
 		D4107B152482BB9C006142EA /* Hokaton */ = {
 			isa = PBXGroup;
 			children = (
+				299FE00F2482DD5300830D70 /* SE sources */,
 				D4107B162482BB9C006142EA /* AppDelegate.swift */,
 				D4107B182482BB9C006142EA /* SceneDelegate.swift */,
 				D4107B1A2482BB9C006142EA /* ViewController.swift */,
 				D4107B1C2482BB9C006142EA /* Main.storyboard */,
-				D49BD5A92482D5670032CDDB /* seongeun.storyboard */,
 				D49BD5AC2482D58F0032CDDB /* seongeunViewController.swift */,
 				D4107B1F2482BB9D006142EA /* Assets.xcassets */,
 				D4107B212482BB9D006142EA /* LaunchScreen.storyboard */,
@@ -157,6 +168,7 @@
 				D4107B172482BB9C006142EA /* AppDelegate.swift in Sources */,
 				D4107B192482BB9C006142EA /* SceneDelegate.swift in Sources */,
 				F4633FFD2482C39100FF9AC1 /* injeongViewController.swift in Sources */,
+				299FE0112482DD7500830D70 /* DiaryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,8 +321,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TZVHD77BLL;
+				DEVELOPMENT_TEAM = 4JPTB87CQ5;
 				INFOPLIST_FILE = Hokaton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,8 +340,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TZVHD77BLL;
+				DEVELOPMENT_TEAM = 4JPTB87CQ5;
 				INFOPLIST_FILE = Hokaton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
