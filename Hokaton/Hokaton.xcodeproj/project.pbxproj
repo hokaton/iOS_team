@@ -13,6 +13,8 @@
 		D4107B1E2482BB9C006142EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4107B1C2482BB9C006142EA /* Main.storyboard */; };
 		D4107B202482BB9D006142EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4107B1F2482BB9D006142EA /* Assets.xcassets */; };
 		D4107B232482BB9D006142EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4107B212482BB9D006142EA /* LaunchScreen.storyboard */; };
+		D49BD5AB2482D5670032CDDB /* seongeun.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49BD5A92482D5670032CDDB /* seongeun.storyboard */; };
+		D49BD5AD2482D58F0032CDDB /* seongeunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BD5AC2482D58F0032CDDB /* seongeunViewController.swift */; };
 		F4633FFB2482BECA00FF9AC1 /* injeong.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4633FFA2482BECA00FF9AC1 /* injeong.storyboard */; };
 		F4633FFD2482C39100FF9AC1 /* injeongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4633FFC2482C39100FF9AC1 /* injeongViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +28,8 @@
 		D4107B1F2482BB9D006142EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4107B222482BB9D006142EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4107B242482BB9D006142EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49BD5AA2482D5670032CDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/seongeun.storyboard; sourceTree = "<group>"; };
+		D49BD5AC2482D58F0032CDDB /* seongeunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seongeunViewController.swift; sourceTree = "<group>"; };
 		F4633FFA2482BECA00FF9AC1 /* injeong.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = injeong.storyboard; sourceTree = "<group>"; };
 		F4633FFC2482C39100FF9AC1 /* injeongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = injeongViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +68,8 @@
 				D4107B182482BB9C006142EA /* SceneDelegate.swift */,
 				D4107B1A2482BB9C006142EA /* ViewController.swift */,
 				D4107B1C2482BB9C006142EA /* Main.storyboard */,
+				D49BD5A92482D5670032CDDB /* seongeun.storyboard */,
+				D49BD5AC2482D58F0032CDDB /* seongeunViewController.swift */,
 				D4107B1F2482BB9D006142EA /* Assets.xcassets */,
 				D4107B212482BB9D006142EA /* LaunchScreen.storyboard */,
 				D4107B242482BB9D006142EA /* Info.plist */,
@@ -133,6 +139,7 @@
 			files = (
 				D4107B232482BB9D006142EA /* LaunchScreen.storyboard in Resources */,
 				D4107B202482BB9D006142EA /* Assets.xcassets in Resources */,
+				D49BD5AB2482D5670032CDDB /* seongeun.storyboard in Resources */,
 				D4107B1E2482BB9C006142EA /* Main.storyboard in Resources */,
 				F4633FFB2482BECA00FF9AC1 /* injeong.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49BD5AD2482D58F0032CDDB /* seongeunViewController.swift in Sources */,
 				D4107B1B2482BB9C006142EA /* ViewController.swift in Sources */,
 				D4107B172482BB9C006142EA /* AppDelegate.swift in Sources */,
 				D4107B192482BB9C006142EA /* SceneDelegate.swift in Sources */,
@@ -169,6 +177,14 @@
 				D4107B222482BB9D006142EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D49BD5A92482D5670032CDDB /* seongeun.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49BD5AA2482D5670032CDDB /* Base */,
+			);
+			name = seongeun.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
