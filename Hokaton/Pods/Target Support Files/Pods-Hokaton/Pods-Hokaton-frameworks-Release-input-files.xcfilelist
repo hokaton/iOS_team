@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Hokaton/Pods-Hokaton-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/FloatingButton/FloatingButton.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
